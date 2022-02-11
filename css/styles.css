@@ -545,7 +545,9 @@ body {
 .swiper-button-prev {
     transform: rotate(180deg);
 }
-
+@media (max-width: 1280px) {
+.page-main-questions_wrapper{width: 894px; margin: 0 auto}
+}
 @media(max-width: 1050px){
     .swiper-container, .swiper-container .swiper{
         width:100%;
@@ -604,6 +606,9 @@ body {
         margin-top: 15px;
     }
 }
+@media (max-width: 956px) {
+.page-main-questions_wrapper{width: 588px;}
+}
 @media(max-width: 850px){
     .page-header-banner:before{
         width: 154px;
@@ -623,6 +628,9 @@ body {
         padding-left: 20px;
         padding-right: 20px;
     }
+}
+@media (max-width: 651px) {
+.page-main-questions_wrapper{width: 282px;}
 }
 /*MOBILE*/
 @media(max-width: 530px){
