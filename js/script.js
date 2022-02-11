@@ -1,7 +1,7 @@
 const swiper = new Swiper('.swiper-container', {
-  longSwipes: true,
-  setWrapperSize: false,
-  watchOverflow: false,
+//   longSwipes: true,
+//   setWrapperSize: false,
+//   watchOverflow: false,
   breakpoints: {
     320: {
       slidesPerView: 1,
@@ -13,7 +13,7 @@ const swiper = new Swiper('.swiper-container', {
   spaceBetween: 24,
   slidesPerView: 4,
   watchSlidesVisibility: true,
-  loop: false,
+  loop: true,
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
