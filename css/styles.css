@@ -75,7 +75,7 @@ body {
     color: var(--basic-total-text);
     background-color: var(--basic-main-background);
     display: grid;
-    display: -ms-grid;
+/*     display: -ms-grid; */
     -ms-grid-rows: -webkit-min-content 1fr -webkit-min-content;
     -ms-grid-rows: min-content 1fr min-content;
     grid-template-rows: min-content 1fr min-content;
